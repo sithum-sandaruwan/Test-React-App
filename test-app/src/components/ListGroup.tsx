@@ -28,7 +28,6 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
               onSelectItem(item);
             }}
           >
-            {" "}
             {item}
           </li>
         ))}
