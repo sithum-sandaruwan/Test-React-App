@@ -20,7 +20,9 @@ function App() {
         <Alert />
       </div>
 
-      <SelectButton onClick={() => console.log("clicked")}>Select</SelectButton>
+      <SelectButton color="danger" onClick={() => console.log("clicked")}>
+        Select
+      </SelectButton>
     </>
   );
 }
